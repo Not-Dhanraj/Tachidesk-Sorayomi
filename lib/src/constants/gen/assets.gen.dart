@@ -61,7 +61,7 @@ class $AssetsIconsLauncherGen {
         iosSorayomiIcon,
         sorayomiIconIco,
         sorayomiIconPng,
-        sorayomiPreviewIcon
+        sorayomiPreviewIcon,
       ];
 }
 

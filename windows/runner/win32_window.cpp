@@ -292,3 +292,4 @@ void Win32Window::SetTheme(HWND const window, bool dark_mode) {
   DwmSetWindowAttribute(window, DWMWA_USE_IMMERSIVE_DARK_MODE,
                         &enable_dark_mode, sizeof(enable_dark_mode));
 }
+
