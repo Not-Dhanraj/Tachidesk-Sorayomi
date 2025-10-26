@@ -90,6 +90,11 @@ class Win32Window {
   // Update the window frame's theme to match the system theme.
   static void UpdateTheme(HWND const window);
 
+ public:
+  // Update the window frame's theme based on a brightness value.
+  static void SetTheme(HWND const window, bool dark_mode);
+
+ private:
   bool quit_on_close_ = false;
 
   // window handle for top level window.
